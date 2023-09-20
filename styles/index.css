@@ -1,0 +1,21 @@
+.image-makanan {
+    height: 200px;
+    cursor: pointer;
+}
+
+.image-makanan:hover {
+    animation-name: animasiHover;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animasiHover {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
